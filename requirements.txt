@@ -1,4 +1,4 @@
-streamlit
+gradio
 joblib
 torch
 transformers
