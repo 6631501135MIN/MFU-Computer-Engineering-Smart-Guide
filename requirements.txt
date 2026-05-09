@@ -1,8 +1,0 @@
-gradio
-joblib
-torch
-transformers
-accelerate
-faiss-cpu
-sentence-transformers
-numpy
