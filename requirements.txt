@@ -1,4 +1,4 @@
-gradio
+streamlit
 joblib
 torch
 transformers
@@ -6,20 +6,3 @@ accelerate
 faiss-cpu
 sentence-transformers
 numpy
-
-# Check all required files for deployment
-
-import os
-
-required_files = [
-    "app.py",
-    "best_ce_rag_model.pkl",
-    "scaler.pkl",
-    "requirements.txt"
-]
-
-for file in required_files:
-    if os.path.exists(file):
-        print(file, "✅ Found")
-    else:
-        print(file, "❌ Missing")
